@@ -1,0 +1,444 @@
+/*リセットCSS*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+  line-height: 1;
+  overflow: hidden;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+a {
+  text-decoration: none;
+  color:#333;
+}
+
+ul {
+  list-style: none;
+}
+
+/*ヘッダー部分*/
+.header-title{
+width:100px;
+margin:0 20px 0 20px;
+
+}
+
+.header > .container{
+display: flex;
+height: 60px;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+}
+
+/*フォームヘッダー*/
+.header {
+  background-color: #fff;
+  width:100%;
+}
+
+
+input {
+  max-width: 600px;
+  min-width: 200px;
+  width: 40vw;
+  height: 20px;
+  padding:15px 10px;;
+  border:1px solid #ccc;
+}
+
+::placeholder{
+  font-size:16px;
+}
+
+.search-btn{
+  height:32px;
+  width:48px;
+  display:flex;
+  justify-content: center;
+  padding-left: 14px;
+  align-items: center;
+  border: solid thin #ccc;
+}
+
+.search-header{
+  display: flex;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav li{
+  padding:0 10px;
+  margin:0 10px;
+}
+
+
+/*サイド部分*/
+.aside{
+  width: 240px;
+  height: calc(100vh - 60px);
+  padding: 0 0 0 10px;
+  background:#fff;
+  overflow-y: scroll;
+}
+
+.side-list:hover{
+  background-color:#d3d3d3;
+}
+
+.side-list a{
+padding:10px 0 10px 24px;
+display:flex;
+}
+
+.fa-search, .fa-heart{
+color:#606060
+}
+
+.fas{
+padding-right:10px;
+}
+
+#top{
+background-color:#d3d3d3;
+}
+
+
+#top:hover{
+background-color:#a9a9a9;
+}
+
+.fa-home{
+color:red;
+}
+
+.side-list p{
+font-size:14px;
+line-height:20px;
+color:#030303;
+}
+
+.side-bar{
+  border-bottom:1px solid #dcdcdc;
+  padding:0 0 12px 0;
+  width:85%;
+}
+
+.side-text{
+  padding-left: 8px;
+}
+
+/*下のサイドバー*/
+.side-bar2 {
+  padding:15px 0 12px 0;
+  border-bottom:1px solid #dcdcdc;
+  width:85%;
+}
+
+.side-bar2 a {
+display:flex;
+padding:10px 0 10px 20px;
+}
+
+.side-bar2 .fas {
+color:#606060;
+padding-right:10px;
+}
+
+.side-text2{
+color:#030303;
+font-size:14px;
+line-height:20px;
+padding-left:15px;
+}
+
+/*登録チャンネルから下 上から３番目*/
+.channel{
+font-size:14px;
+padding: 8px 0 20px 20px;
+opacity:0.7;
+
+}
+
+.side-bar3{
+padding:15px 0 0px 0;
+border-bottom:1px solid #dcdcdc;
+width:85%;
+}
+
+.icon{
+width:40px;
+height:40px;
+border-radius:50%;
+padding-left:10px;
+}
+
+.introduction a{
+display:flex;
+}
+
+.side-text3{
+color:#030303;
+font-size:14px;
+line-height:20px;
+padding:12px 0 0 15px;
+}
+
+.point{
+  color:#0000cd;
+  width:8px;
+  height:8px;
+  font-size:22px;
+  float:right;
+  padding-left:20px;
+}
+
+.fa-broadcast-tower{
+  float:right;
+  color:red;
+  padding:5px 0 0 20px;
+}
+
+.fa-chevron-down{
+  padding:15px 0 0 20px;
+  color:#606060;
+}
+
+
+.else{
+  font-size:14px;
+  color:#606060;
+  margin:0 0 0 10px;
+}
+
+#else{
+  padding-bottom:10px;
+}
+
+.introduction:hover{
+  background-color:#d3d3d3;
+}
+
+
+
+.list_nav_side li{
+  padding-left:20px;
+}
+
+
+
+.side-list{
+  display: flex;
+}
+
+.section{
+  padding-left:5px;
+}
+
+
+/*最後の説明*/
+
+.register{
+font-size:14px;
+padding:10px 0 10px 30px;
+color:#606060;
+}
+
+
+.explain{
+font-size:13px;
+color:#606060;
+padding:2px;
+}
+
+.reserved{
+font-size:12px;
+color:#909090;
+padding:0 0 15px 20px;
+line-height:18px;
+}
+
+.lastText{
+padding:15px 0 15px 20px;
+}
+
+
+
+
+
+/*メイン部分*/
+
+
+/*サイドとメインの横並び*/
+.flex{
+  display:flex;
+}
+
+
+.main {
+  width: -webkit-fill-available;
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+  padding: 16px;
+  background:#f9f9f9;
+}
+
+/*隣接の線*/
+.main .box + .box{
+  border-top: 3px solid #ccc ;
+}
+
+
+.layout{
+  display:flex;
+}
+
+
+.list-video{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.list-video>li{
+  width:23%;
+  margin:20px 20px 50px 0px;
+}
+
+.list-video .imager{
+  width:100%;
+  height:150px;
+  object-fit: cover;
+  }
+
+
+.icon1{
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  margin:10px 10px 0 0px;
+}
+
+  .title{
+    margin-top:10px;
+    font-size:14px;
+    color:#030303;
+  }
+
+  .user{
+    margin-top:10px;
+    font-size:14px;
+    color:#606060;
+  }
+
+  .main-title{
+    font-size:20px;
+    color:#030303;
+    padding-bottom:30px;
+    margin-top:20px;
+    font-family:Arial, sans-serif;
+  }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, .1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 50, .5);
+  border-radius: 8px;
+  box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
+}

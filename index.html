@@ -1,0 +1,533 @@
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自作コーディング3</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="https://kit.fontawesome.com/365640c23e.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+
+<!-- ヘッダー部分 -->
+<div class="header">
+  <div class="container">
+    <div class="header-title">
+      <h1>MOVIEFUN!</h1>
+    </div>
+    <form  action="">
+      <div class="search-header">
+        <input class="search" type="search" placeholder="検索">
+        <button class="search-btn">
+          <i class="fas fa-search fa-lg"></i>
+        </button>
+      </div>
+    </form>
+    <ul class="nav">
+      <li class="phone">
+        <a href="#"><i class="fas fa-microphone fa-lg"></i>
+        </a>
+      </li>
+      <li class="create">
+        <a href="#"><i class="fas fa-video fa-lg"></i>
+        </a>
+      </li>
+      <li class="app">
+        <a href="#"><i class="fas fa-th fa-lg"></i>
+        </a>
+      </li>
+      <li class="setting">
+        <a href="#"><i class="fas fa-bell fa-lg"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="flex">   <!------------横並びにする------>
+  <!--サイドバー部分-->
+  <div class="aside">
+    <ul class="side-bar"> 
+      <li class="side-list">
+        <a href="#">
+          <i class="fas fa-home fa-lg"></i>
+          <p class="side-text">ホーム</p>
+        </a>
+      </li>
+      <li class="side-list">
+        <a href="#">
+          <i class="fas fa-search fa-lg"></i>
+          <p class="side-text">検索</p>
+        </a>
+      </li>
+      <li class="side-list">
+        <a href="#">
+          <i class="fas fa-heart fa-lg"></i>
+          <p class="side-text">登録チャンネル</p>
+        </a>
+      </li>
+    </ul>
+    <!--2つ目のサイドバー-->
+    <div class="aside2nd">
+      <ul class="side-bar2">
+        <li class="introduction"> 
+          <a href="#">
+            <i class="fas fa-video fa-lg"></i>
+            <p class="side-text2">ライブラリ</p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#"><i class="fas fa-history fa-lg"></i>
+            <p class="side-text2">履歴</p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#"><i class="fas fa-play-circle fa-lg"></i>
+            <p class="side-text2">自分の動画</p>
+          </a>
+        </li>
+        <li class="introduction">
+          <a href="#"><i class="fas fa-clock fa-lg"></i>
+            <p class="side-text2">後で見る</p>
+          </a>
+        </li>
+        <li class="introduction">
+          <a href="#"><i class="fas fa-thumbs-up fa-lg"></i>
+            <p class="side-text2">高く評価した動画</p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#"><i class="fas fa-indent fa-lg"></i>
+            <p class="side-text2">常に聞く専用</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!--3つ目のサイドバー-->
+    <div class="side-bar3">
+      <p class="channel">登録チャンネル</p>
+      <ul>
+        <li class="introduction"> 
+          <a href="#">
+            <img class="icon" src="image/icon.jpg" alt="">
+            <p class="side-text3">Youtube <i class="fas fa-broadcast-tower fa-xs"></i></p>
+          </a>
+        </li>
+        <li class="introduction">
+          <a href="#">
+            <img class="icon" src="image/icon.jpg" alt="">
+            <p class="side-text3">Twitter </p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#">
+            <img class="icon" src="image/icon.jpg" alt="">
+            <p class="side-text3">Line</p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#">
+            <img class="icon" src="image/icon.jpg" alt="">
+            <p class="side-text3">instagram</p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#">
+            <img class="icon" src="image/icon.jpg" alt="">
+            <p class="side-text3">Tiktok</p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#">
+            <img class="icon" src="image/icon.jpg" alt="">
+            <p class="side-text3">Facebook</p>
+          </a>
+        </li>
+        <li id="else" class="introduction"> 
+          <a href="#">
+            <i class="fas fa-chevron-down fa-lg"></i>
+            <p class="side-text3"><span class="else">他 5件を表示</span></p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="aside2nd">
+      <ul class="side-bar2">
+        <section class="section">
+          <li class="introduction"> 
+            <a href="#">
+              <i class="fas fa-film fa-lg"></i>
+              <p class="side-text2">映画と番組</p>
+            </a>
+          </li>
+        </section>
+        <li class="introduction"> 
+          <a href="#">
+            <i class="fas fa-gamepad fa-lg"></i>
+            <p class="side-text2">ゲーム</p>
+          </a>
+        </li>
+        <li class="introduction"> 
+          <a href="#">
+            <i class="fas fa-volume-up fa-lg"></i>
+            <p class="side-text2">ライブ</p>
+          </a>
+        </li>
+        <section class="section">
+          <li class="introduction">
+            <a href="#">
+              <i class="fas fa-lightbulb fa-lg"></i>
+              <p class="side-text2">学び</p>
+            </a>
+          </li>
+        </section>
+        <li class="introduction">
+            <a href="#">
+              <i class="fas fa-trophy fa-lg"></i>
+              <p class="side-text2">スポーツ</p>
+            </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="aside2nd">
+      <ul class="side-bar2">
+        <li class="introduction">
+          <a href="#">
+            <i class="fas fa-cog fa-lg"></i>
+            <p class="side-text2">設定</p>
+          </a>
+        </li>
+        <li class="introduction">
+          <a href="#"><i class="fas fa-flag fa-lg"></i>
+            <p class="side-text2">報告履歴</p>
+          </a>
+        </li>
+        <li class="introduction">
+          <a href="#"><i class="fas fa-play-circle fa-lg"></i>
+            <p class="side-text2">ヘルプ</p>
+          </a>
+        </li>
+        <li class="introduction">
+          <a href="#"><i class="fas fa-clock fa-lg"></i>
+            <p class="side-text2">フィードバックの送信</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!--最後の説明-->
+    <div class="box">
+      <div class="lastText">
+        <p class="explain">概要 プレスルーム 著作権</p>
+        <p class="explain">お問い合わせ</p>
+        <p class="explain">クリエイター向け 広告掲載</p>
+        <p class="explain">開発者向け</p>
+      </div>
+      <div class="lastText">
+        <p class="explain">利用規約 プライバシー</p>
+        <p class="explain">ポリシーとセキュリティ</p>
+        <p class="explain">Youtubeの仕組み</p>
+        <p class="explain">新機能を試してみる</p>
+      </div>
+      <p class="reserved">© ryuya portfolio</p>
+    </div>
+  </div>
+
+
+
+
+
+<!--1列目のトピック-->
+
+<div class="main">
+  <div class="box">
+    <ul class="list-video">
+
+        <li>
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">可愛くなれる方法</p>
+              <p class="user">こばしり。</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">ひげ団紹介します</p>
+              <p class="user">ひげ団</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">垢抜けメイク</p>
+              <p class="user">えっちゃんねる</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">ぶんぶんはろー</p>
+              <p class="user">HIKAKIN</p>
+            </div>
+
+      </li>
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">私、歌います！</p>
+              <p class="user">yoasobi</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">怪物</p>
+              <p class="user">yoasobi</p>
+            </div>
+          </div>
+
+      </li>
+
+
+      <li class="none">
+
+    <img class="imager" src="image/Static website-pana.png">
+    <div class="layout">
+      <img class="icon1" src="image/まる.png">
+
+      <div class="text">
+        <p class="title">ハルジオン</p>
+        <p class="user">yoasobi</p>
+      </div>
+    </div>
+
+  </li>
+
+  <li class="none">
+
+    <img class="imager" src="image/Static website-pana.png">
+    <div class="layout">
+      <img class="icon1" src="image/まる.png">
+
+      <div class="text">
+        <p class="title">群青</p>
+        <p class="user">yoasobi</p>
+      </div>
+    </div>
+
+  </li>
+
+</ul>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+<!------2列目のトピック--------------------------->
+
+  <div class="box">
+
+    <p class="main-title">急上昇中の動画</p>
+    <ul class="list-video"> 
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">うっせえわ</p>
+              <p class="user">うるせえわ</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">結婚報道について！</p>
+              <p class="user">逃げ恥</p>
+            </div>
+          </div>
+
+      </li>
+
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">ハッピーエンド</p>
+              <p class="user">backnumber</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li class="none">
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">群青</p>
+              <p class="user">しぬこチャンネル</p>
+            </div>
+          </div>
+
+      </li>
+
+    </ul>
+
+</div>
+  <div class="box">
+
+
+<!-------3列目のメイントピック-------------------------->
+  <div class="box">
+
+    <p class="main-title">COVID-19に関するニュース</p>
+    <ul class="list-video">
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">専門家の意見</p>
+              <p class="user">covid-19</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li>
+        <article>
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">怖い後遺症</p>
+              <p class="user">covid-19</p>
+            </div>
+          </div>
+        </article>
+      </li>
+
+
+      <li>
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">東京都知事の会見</p>
+              <p class="user">covid-19</p>
+            </div>
+          </div>
+
+      </li>
+
+      <li class="none">
+
+          <img class="imager" src="image/Static website-pana.png">
+          <div class="layout">
+              <img class="icon1" src="image/まる.png">
+
+            <div class="text">
+              <p class="title">ワクチンQ&A</p>
+              <p class="user">covid-19</p>
+            </div>
+          </div>
+
+      </li>
+
+    </ul>
+
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!--display:flexのdiv-->
+</body>

@@ -1,0 +1,99 @@
+/*レスポンシブ対応*/
+
+@media (max-width: 1330px) {
+  .aside {
+    width: 80px;
+    background-color: white;
+    height: 100%;
+  }
+
+  .aside::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main {
+    width: 93%;
+  }
+
+  .list-video > li {
+    width: 30%;
+  }
+
+  /*サイドリスト*/
+  .side-list {
+    padding: 15px 0px;
+  }
+
+  .side-text {
+    padding-left: 4px;
+    text-align: center;
+  }
+
+  .side-list a {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+
+  .side-list p {
+    font-size: 10px;
+    display: block;
+    line-height: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 70px;
+  }
+
+  .side-bar {
+    border-bottom: 0;
+    padding: 0 0 12px 0;
+    width: 85%;
+  }
+
+  .side-bar3,
+  .side-bar2,
+  .lastText,
+  .reserved {
+    display: none;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  input {
+    display: none;
+  }
+
+  .header ul{
+    margin-left:auto;
+  }
+
+  .imager{
+    margin-bottom:50px;
+  }
+
+  .layout{
+  justify-content: center;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+
+  .aside {
+    width: 0;
+  }
+
+
+  .main li {
+    width: 100%;
+  }
+
+  .search-btn{
+    display:none;
+  }
+}
